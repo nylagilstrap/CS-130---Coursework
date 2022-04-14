@@ -2,20 +2,60 @@
 * {
     box-sizing: border-box;
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #cd63d6;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+}
 
+
+}
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+    
+    
 }
-header, section {
+header{
+    text-align: center;
+    background-color: rgb(172, 115, 219);
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+   
+} 
+section {
+    
     padding: 20px;
+    
 }
 p, li {
     line-height: 1.5em;
 }
 
 #inspiration {
-    background-color: #F0F0F0;
+    background-color: #e0a2f0;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    
+
+}
+#homework {
+    background-color: #df8bdf;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+}
+
+#tutorials {
+    background-color: #cd63d6;
+    padding-top: 40px;
+    padding-bottom: 40px;   
+    font-family: 'Nanum Gothic Coding', monospace; 
+
 }
