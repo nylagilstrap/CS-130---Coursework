@@ -17,10 +17,14 @@ height
 width
 */
 section {
-    border: solid 1px rgb(rgb(107, 102, 102)
+    border: solid 1px rgb(107, 102, 102);
     padding: 10px;
 }
 
-p {
-    widthL 50%
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 1.2 em;
+        background-color: aqua;
+    }
+
 }
