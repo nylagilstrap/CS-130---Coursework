@@ -14,7 +14,7 @@ a, a:hover, a:visited, a:active {
 /**********/
 /* Layout */
 /**********/
-aside, footer, header, nav, section, article {
+aside, footer, section, article {
     display: flex;
     flex-direction: column;
 }
@@ -39,7 +39,16 @@ header {
     width: calc(100vw - 250px);
     left: 250px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding: 30px;
+}
+
+header a{
+    margin: 10px;
+    border:#fff 1px solid;
+    padding: 10px;
+    border-radius: 40%;
 }
 
 main {
@@ -108,11 +117,17 @@ nav {
     margin-top: 100px;
 }
 
+
 footer {
     background: #222;
     grid-area: bottom;
 }
 
+.artist-card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 /***************************/
 /* Accessories & Florishes */
 /***************************/
