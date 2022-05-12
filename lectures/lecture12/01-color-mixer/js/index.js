@@ -12,13 +12,14 @@ const updateColor = (ev) => {
     If red and blue are turned on, make the background purple.
     If yellow and blue are turned on, make the background green.
     If everything is turned on, then make the background black.
+    HINT: look at the conjunctions first because the order of opperations matters
     */
     if (redElement.value === 'on') {
         document.body.style.backgroundColor = 'red';
     } else if (yellowElement.value === 'on') {
         document.body.style.backgroundColor = 'yellow';
-    } else {
-        document.body.style.backgroundColor = 'white';
+     } else if (yellowElement.value === 'on') {
+        document.body.style.backgroundColor = 'yellow';
     }
 
 };
