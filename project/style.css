@@ -28,12 +28,17 @@
 .card1{
     grid-area: b;
     background-color: aqua;
-    background-image: url(images/1.jpg);
+    /* background-image: url(images/1.jpg); */
     background-position: center;
     border: 20px solid rgb(66, 20, 117);
-    
-    
 
+}
+
+.card1 img{
+    width: 70%;
+    height: 70%;
+    margin: 0% auto; 
+    
 }
 
 .card2{
@@ -49,14 +54,23 @@
 .card3{
     grid-area: d;
     background-color: pink;
-    background-image: url(images/3.jpg); 
+    background-image: url(images/3.jpg);  
     background-position: center;
     background-position-y: 47%;
-    border: 20px solid rgb(66, 20, 117);
-    
-    
-    
+    border: 20px solid rgb(66, 20, 117);    
 }
+
+a{
+    color: red;
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    text-justify: distribute;
+    margin-left: 150px;
+    margin-top: 500px;
+}
+  
 
 
 
