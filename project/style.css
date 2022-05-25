@@ -45,6 +45,15 @@ body{
     
 }
 
+.bottom button{
+    background-color: #baa0d8 ;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30%;
+}
+
 .card1{
     grid-area: b;
     background-color: #421475 ;
