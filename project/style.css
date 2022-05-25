@@ -1,75 +1,98 @@
+h1{
+    text-align: center;
+    
+    font-family: 'Chewy', cursive;
+    font-size: 300%;
+    color: #b59dd1;
+}
 
-
+h1 img{
+   width: 8%;
+   height: 8%;
+}
 .container{
     color: lavender;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4.75fr .5fr;
+    grid-template-rows: .5fr 5fr .5fr;
     grid-template-areas: 
     "a a a"
     "b c d"
     "e e e";
-}
+    height: 100px;
+    width: 100%;
 
+    align-items: start;
+}
+body{
+    size: 500px;
+    margin: 0;
+    height: 100vh;
+}
 
 .top{
     grid-area: a;
-    background-color: rgb(66, 20, 117);
-    height: 120px;
-
+    background-color: #e0d2f1;
+    height: 100%;
+    width: 100%;
 }
 
 .bottom{
     grid-area: e;
-    background-color: rgb(66, 20, 117);
+    background-color: rgb(183, 158, 211);
+    height: 100%;
+    width: 100%;
     
 }
 
 .card1{
     grid-area: b;
-    background-color: aqua;
+    background-color: #421475 ;
     /* background-image: url(images/1.jpg); */
     background-position: center;
-    border: 20px solid rgb(66, 20, 117);
-
+    border: 20px solid #421475; 
 }
 
 .card1 img{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
     margin: 0% auto; 
     
 }
 
 .card2{
     grid-area: c;
-    background-color: blueviolet;
-    background-image: url(images/2.jpg); 
+    background-color: #421475 ;
+    /* background-image: url(images/2.jpg);  */
     background-position: center;
     border: 20px solid rgb(66, 20, 117);
     
 
 }
+.card2 img{
+    width: 100%;
+    height: 100%;
+    margin: 0% auto; 
+    
+}
 
 .card3{
     grid-area: d;
-    background-color: pink;
-    background-image: url(images/3.jpg);  
+    background-color: #421475 ;
+    /* background-image: url(images/3.jpg);   */
     background-position: center;
     background-position-y: 47%;
     border: 20px solid rgb(66, 20, 117);    
 }
 
-a{
-    color: red;
-    font-family: helvetica;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: center;
-    text-justify: distribute;
-    margin-left: 150px;
-    margin-top: 500px;
+.card3 img{
+    width: 100%;
+    height: 100%;
+    margin: 0% auto; 
+    
 }
+
+
   
 
 

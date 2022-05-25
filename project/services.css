@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(66, 20, 117);
+    margin: 0%;
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+   
+}
+
+h1{
+    background-color: #e0d2f1;
+    font-family: 'Chewy', cursive;
+    color: #b59dd1;
+    text-align: center;
+    margin-top: 0%;
+   
+}
+
+h1 a{
+    font-family: 'Chewy', cursive;
+    color: #b59dd1;
+    text-align: center;
+    margin-top: 0%; 
+    text-decoration: none;
+}
+h1 img{
+    width: 8%;
+    height: 8%;
+    
+ }
+
+ h2{
+  font-family: 'Chewy', cursive;
+  color: #b59dd1;
+  margin-left: 10px;
+ }
+
+.cards {
+    
+    grid-template-areas: b;
+    margin: 10px;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 5px;
+    font-family: sans-serif;
+}
+
+.card{
+    box-shadow: 0 0 3px color black;
+    outline: #2dd695;
+    border: solid 1px rgb(255, 255, 255);
+}
+
+.card__image{
+  width: 100%;
+  
+}
+
+.card__content{
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa ;
+}
+
+.card__content > p:first-of-type{
+  margin-top: 0;  
+}
+
+.card__content > p:last-of-type{
+    margin-bottom: 0;  
+}
+
+.card__info{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background: #eeeeee;
+    font-size: 0.8em;
+    border-bottom: 2px solid #cccccc;
+    align-items: center;
+}
+
+.card__link{
+    color: #d62d7c;
+    text-decoration: none;
+}
+
+.card__link:hover{
+    text-decoration: underline;
+}
+
+
