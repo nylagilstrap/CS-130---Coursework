@@ -53,6 +53,10 @@ h1 img{
     border: solid 1px rgb(255, 255, 255);
 }
 
+.card p{
+    color: #421475;
+}
+
 .card__image{
   width: 100%;
   
@@ -62,7 +66,7 @@ h1 img{
     line-height: 1.5;
     font-size: 0.9em;
     padding: 15px;
-    background: #fafafa ;
+    background:  #e0d2f1;
 }
 
 .card__content > p:first-of-type{
@@ -77,14 +81,17 @@ h1 img{
     padding: 15px;
     display: flex;
     justify-content: space-between;
-    background: #eeeeee;
+    background: #b59dd1;
     font-size: 0.8em;
     border-bottom: 2px solid #cccccc;
     align-items: center;
 }
 
+.card__info p{
+    color: #421475;
+}
 .card__link{
-    color: #d62d7c;
+    color: #421475 ;
     text-decoration: none;
 }
 
