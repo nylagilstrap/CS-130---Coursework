@@ -37,22 +37,34 @@ h1 img{
   margin-left: 10px;
  }
 
-.cards {
+ .cards {
     
     grid-template-areas: b;
     margin: 10px;
-    display:grid;
-    grid-template-columns: 33% 33% 33%;
-    gap: 5px;
+    display: grid; 
+    flex-wrap: wrap;
+    /*grid-template-columns: 33% 33% 33%;*/
+   
+    display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto, minmax(300px);
+  grid-auto-flow: row dense;
+    /* gap: 5px;*/
     font-family: sans-serif;
+   /* grid-template-rows: none;*/
+    /*row-gap: none;*/
+    
+
 }
 
 .card{
     box-shadow: 0 0 3px color black;
     outline: #2dd695;
-    border: solid 1px rgb(255, 255, 255);
-}
+    border: 1px rgb(255, 255, 255);
+    border: auto; 
 
+}
 .card p{
     color: #421475;
 }
